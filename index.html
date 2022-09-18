@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PramodFitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Roboto:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        height: 822px;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+
+        top: 20px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        top: 20px;
+        margin: 12px auto;
+
+
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .navebar {
+        display: inline-block;
+        color: white;
+    }
+
+    .navebar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navebar li a {
+        color: white;
+        width: 33%;
+        text-decoration: none;
+        padding: 30px 20px;
+
+    }
+
+    .navebar li a:hover,
+    .navebar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100);
+        padding-left: 15px;
+        margin-left: 10px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 10px;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: gray;
+    }
+
+    .pp:hover {
+        background-color: gray;
+        text-align: center;
+    }
+
+    .cont {
+
+        padding-bottom: 60px;
+        margin: 90px;
+        border: 2px solid white;
+        width: 20%;
+        border-radius: 46px;
+        padding:10px;
+        display:block;
+    }
+
+    .this from input {
+        text-align: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        margin: 3px auto;
+
+
+    }
+
+    .hh {
+        text-align: left;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo-->
+        <div class="left">
+            <image src="img/back.png"></image>
+            <div class="pp">Pramod Fitness</div>
+        </div>
+        <!--mid box for navigater-->
+        <div class="mid">
+            <ul class="navebar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculate</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--Right box for button-->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="cont">
+        <h1 class="hh">Join the best GYM from Here</h1>
+        <from action="noaction.php"></from>
+        <div class="this from">
+            <input type="text" Name="" placeholder="Enter your Name">
+        </div>
+        <div class="this from">
+            <input type="text" Name="" placeholder="Enter your age">
+        </div>
+        <div class="this from">
+            <input type="text" Name="" placeholder="Enter your locality">
+        </div>
+        <div class="this from">
+            <input type="text" Name="" placeholder="Enter your email">
+        </div>
+        <button class="btn">Submit</button>
+
+    </div>
+</body>
+
+</html>
